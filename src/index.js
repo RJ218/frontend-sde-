@@ -8,7 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NewsFeed />
+    <NewsFeed choosennews={0}>
+    </NewsFeed>
   </React.StrictMode>,
   document.getElementById('root')
 );

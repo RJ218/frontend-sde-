@@ -7,16 +7,18 @@ class Newscard extends React.Component {
         super(props);
     }
 
+    
+
     render() {
       //  console.log(this.props);
 
         return (
             <div>
-                <Card>
-                    <CardImg top width="100%" src={this.props.item.urlToImage} alt="Card image cap" />
+                <Card >
+                    <CardImg top width="100%"  src={this.props.item.urlToImage} alt="Image not available" />
                     <CardBody>
                         <CardTitle><h2>{this.props.item.title}</h2></CardTitle>
-                        <CardText>{this.props.item.content}</CardText>
+                        <CardText>{this.props.item.description}</CardText>
 
                     </CardBody>
                 </Card>
