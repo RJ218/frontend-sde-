@@ -83,7 +83,8 @@ class NewsFeed extends React.Component {
             modal={true}
             url={this.state.news_info[this.state.choosennews].url}
             date={this.state.news_info[this.state.choosennews].publishedAt}
-
+            numb={Math.random(0,1000)}
+          
             >
 
             </NewsModal>

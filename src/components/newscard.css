@@ -3,5 +3,9 @@
 }
 .card{
     min-height: 80vmin !important;
+
     
+}
+.card:hover{
+    background-color: #D3D3D3;
 }

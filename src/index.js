@@ -5,11 +5,14 @@ import NewsFeed from './components/newsfeed';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Donut from './components/donut';
+// <NewsFeed choosennews={0}>
+//</NewsFeed>
 
 ReactDOM.render(
   <React.StrictMode>
-    <NewsFeed choosennews={0}>
-    </NewsFeed>
+   <NewsFeed choosennews={0}>
+</NewsFeed>
   </React.StrictMode>,
   document.getElementById('root')
 );
